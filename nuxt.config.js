@@ -35,6 +35,7 @@ module.exports = {
   */
   buildModules: [
   ],
+  router: { base: '/guiga-modas/' },
   /*
   ** Nuxt.js modules
   */

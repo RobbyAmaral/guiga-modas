@@ -1,6 +1,6 @@
 <template>
 <div class="sidenav-container">
-    <div class="sidenav-backdrop" 
+    <div class="sidenav-backdrop"
         v-if="isSideNavActive"
         @click="toggle">
         <transition name="slide">
@@ -60,7 +60,7 @@ export default {
 
     .sidenav-backdrop {
         left: 0;
-        top: 65px;
+        top: 0;
         z-index: 2;
         width: 100vw;
         height: 100vh;
@@ -71,7 +71,7 @@ export default {
 
     .sidenav-panel {
         left: 0;
-        top: 65px;
+        top: 0;
         z-index: 10;
         width: 200px;
         height: 100vh;
